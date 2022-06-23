@@ -1,1 +1,3 @@
-# github.io
+# Lobotomy
+
+Simple landing for college
