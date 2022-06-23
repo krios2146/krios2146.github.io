@@ -1,0 +1,20 @@
+.btn{
+    width: 260px;
+    height: 60px;
+    color: var(--bright);
+    background: #161518;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    @include content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    &:hover{
+        transition: .3s;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.45);
+        background-color: #000;
+    }
+}

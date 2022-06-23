@@ -1,0 +1,41 @@
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1080px;
+    background-color: var(--bright);
+    color: var(--dark);
+    &-container{
+        width: 1090px;
+        height: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__header{
+        @include header;
+    }
+    &__cards{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        text-align: center
+    }
+    &__name{
+        @include semi-header;
+    }
+    &__description{
+        @include content;
+    }
+}

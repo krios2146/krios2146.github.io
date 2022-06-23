@@ -1,0 +1,29 @@
+.forWhatIsFor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bright);
+    height: 1080px;
+    &-container{
+        width: 1220px;
+        height: 846px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between
+    }
+    &__header{
+        @include header;
+    }
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 355px;
+    }
+    &__card{
+        width: 400px;
+        @include content;
+        text-align: center;
+    }
+}
